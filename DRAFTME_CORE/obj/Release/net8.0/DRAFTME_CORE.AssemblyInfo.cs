@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DRAFTME_CORE")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+51af8fbe3ee9fdc68356992488400893bcb20d66")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cc582769ddeb38eb32a7a23f2669686b6c778749")]
 [assembly: System.Reflection.AssemblyProductAttribute("DRAFTME_CORE")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DRAFTME_CORE")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

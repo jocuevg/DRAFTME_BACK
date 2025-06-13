@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0DWhnVULvjs=",
+  "dgSpecHash": "cS1UN3UmKFQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\josec\\source\\repos\\DRAFTME_API\\DRAFTME_API.csproj",
+  "projectFilePath": "C:\\Users\\josec\\OneDrive\\Documentos\\GitHub\\DRAFTME_BACK\\DRAFTME_API\\DRAFTME_API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\josec\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\josec\\.nuget\\packages\\microsoft.openapi\\1.6.14\\microsoft.openapi.1.6.14.nupkg.sha512",

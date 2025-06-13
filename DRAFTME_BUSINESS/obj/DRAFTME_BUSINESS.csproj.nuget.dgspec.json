@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\josec\\source\\repos\\DRAFTME_BUSINESS\\DRAFTME_BUSINESS.csproj": {}
+    "C:\\Users\\josec\\OneDrive\\Documentos\\GitHub\\DRAFTME_BACK\\DRAFTME_BUSINESS\\DRAFTME_BUSINESS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\josec\\source\\repos\\DRAFTME_BUSINESS\\DRAFTME_BUSINESS.csproj": {
+    "C:\\Users\\josec\\OneDrive\\Documentos\\GitHub\\DRAFTME_BACK\\DRAFTME_BUSINESS\\DRAFTME_BUSINESS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\josec\\source\\repos\\DRAFTME_BUSINESS\\DRAFTME_BUSINESS.csproj",
+        "projectUniqueName": "C:\\Users\\josec\\OneDrive\\Documentos\\GitHub\\DRAFTME_BACK\\DRAFTME_BUSINESS\\DRAFTME_BUSINESS.csproj",
         "projectName": "DRAFTME_BUSINESS",
-        "projectPath": "C:\\Users\\josec\\source\\repos\\DRAFTME_BUSINESS\\DRAFTME_BUSINESS.csproj",
+        "projectPath": "C:\\Users\\josec\\OneDrive\\Documentos\\GitHub\\DRAFTME_BACK\\DRAFTME_BUSINESS\\DRAFTME_BUSINESS.csproj",
         "packagesPath": "C:\\Users\\josec\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\josec\\source\\repos\\DRAFTME_BUSINESS\\obj\\",
+        "outputPath": "C:\\Users\\josec\\OneDrive\\Documentos\\GitHub\\DRAFTME_BACK\\DRAFTME_BUSINESS\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
