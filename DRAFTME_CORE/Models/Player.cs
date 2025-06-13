@@ -7,9 +7,10 @@ public class Player
     public DateTime Nacimiento { get; set; }
     public string Posicion { get; set; }
     public string Biografia { get; set; }
-    public string Username { get; set; }
+    public string UserId { get; set; }  // username
+    public User User { get; set; }
     public int? TeamId { get; set; }
-    public Team Team { get; set; }
+    public Team? Team { get; set; }
     public int Goles { get; set; }
     public int Asistencias { get; set; }
     public int Minutos { get; set; }

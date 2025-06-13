@@ -1,0 +1,12 @@
+C:\Users\josec\OneDrive\Documentos\GitHub\DRAFTME_BACK\DRAFTME_BUSINESS\bin\Debug\net8.0\DRAFTME_BUSINESS.deps.json
+C:\Users\josec\OneDrive\Documentos\GitHub\DRAFTME_BACK\DRAFTME_BUSINESS\bin\Debug\net8.0\DRAFTME_BUSINESS.dll
+C:\Users\josec\OneDrive\Documentos\GitHub\DRAFTME_BACK\DRAFTME_BUSINESS\bin\Debug\net8.0\DRAFTME_BUSINESS.pdb
+C:\Users\josec\OneDrive\Documentos\GitHub\DRAFTME_BACK\DRAFTME_BUSINESS\obj\Debug\net8.0\DRAFTME_BUSINESS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josec\OneDrive\Documentos\GitHub\DRAFTME_BACK\DRAFTME_BUSINESS\obj\Debug\net8.0\DRAFTME_BUSINESS.AssemblyInfoInputs.cache
+C:\Users\josec\OneDrive\Documentos\GitHub\DRAFTME_BACK\DRAFTME_BUSINESS\obj\Debug\net8.0\DRAFTME_BUSINESS.AssemblyInfo.cs
+C:\Users\josec\OneDrive\Documentos\GitHub\DRAFTME_BACK\DRAFTME_BUSINESS\obj\Debug\net8.0\DRAFTME_BUSINESS.csproj.CoreCompileInputs.cache
+C:\Users\josec\OneDrive\Documentos\GitHub\DRAFTME_BACK\DRAFTME_BUSINESS\obj\Debug\net8.0\DRAFTME_BUSINESS.sourcelink.json
+C:\Users\josec\OneDrive\Documentos\GitHub\DRAFTME_BACK\DRAFTME_BUSINESS\obj\Debug\net8.0\DRAFTME_BUSINESS.dll
+C:\Users\josec\OneDrive\Documentos\GitHub\DRAFTME_BACK\DRAFTME_BUSINESS\obj\Debug\net8.0\refint\DRAFTME_BUSINESS.dll
+C:\Users\josec\OneDrive\Documentos\GitHub\DRAFTME_BACK\DRAFTME_BUSINESS\obj\Debug\net8.0\DRAFTME_BUSINESS.pdb
+C:\Users\josec\OneDrive\Documentos\GitHub\DRAFTME_BACK\DRAFTME_BUSINESS\obj\Debug\net8.0\ref\DRAFTME_BUSINESS.dll

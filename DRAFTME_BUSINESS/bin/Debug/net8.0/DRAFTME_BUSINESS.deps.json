@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "DRAFTME_BUSINESS/1.0.0": {
+        "runtime": {
+          "DRAFTME_BUSINESS.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DRAFTME_BUSINESS/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

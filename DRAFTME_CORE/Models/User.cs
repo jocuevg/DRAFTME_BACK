@@ -1,7 +1,11 @@
-﻿namespace DRAFTME_CORE.Models;
+﻿using DRAFTME_CORE.Enums;
+using System.ComponentModel.DataAnnotations;
+
+namespace DRAFTME_CORE.Models;
 public class User
 {
+    [Key]
     public string Username { get; set; }
     public string PasswordHash { get; set; }
-    public int Rol { get; set; } // player=0 o scout=1
+    public Rol Rol { get; set; } 
 }
