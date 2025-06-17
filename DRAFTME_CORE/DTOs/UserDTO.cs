@@ -1,9 +1,4 @@
 ﻿using DRAFTME_CORE.Enums;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DRAFTME_CORE.DTOs;
 public class UserDTO
