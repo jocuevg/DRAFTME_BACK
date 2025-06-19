@@ -35,8 +35,6 @@
     <Folder Include="Services\Teams\Commands\Create\" />
     <Folder Include="Services\Teams\Commands\Delete\" />
     <Folder Include="Services\Teams\Commands\Update\" />
-    <Folder Include="Services\Teams\Queries\GetAll\" />
-    <Folder Include="Services\Teams\Queries\GetById\" />
   </ItemGroup>
 
   <ItemGroup>
