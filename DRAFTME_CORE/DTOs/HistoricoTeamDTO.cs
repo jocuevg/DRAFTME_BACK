@@ -1,7 +1,5 @@
-﻿using DRAFTME_CORE.Models;
-
-namespace DRAFTME_CORE.DTOs;
-internal class HistoricoTeamDTO
+﻿namespace DRAFTME_CORE.DTOs;
+public class HistoricoTeamDTO
 {
     public int Id { get; set; }
     public int TeamId { get; set; }

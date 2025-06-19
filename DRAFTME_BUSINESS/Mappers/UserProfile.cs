@@ -3,7 +3,7 @@ using DRAFTME_CORE.DTOs;
 using DRAFTME_CORE.Models;
 
 namespace DRAFTME_BUSINESS.Mappers;
-public class UserProfile:Profile
+public class UserProfile : Profile
 {
     public UserProfile()
     {

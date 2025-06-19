@@ -1,6 +1,4 @@
-﻿using DRAFTME_CORE.Models;
-
-namespace DRAFTME_CORE.DTOs;
+﻿namespace DRAFTME_CORE.DTOs;
 public class HistoricoPlayerDTO
 {
     public int Id { get; set; }

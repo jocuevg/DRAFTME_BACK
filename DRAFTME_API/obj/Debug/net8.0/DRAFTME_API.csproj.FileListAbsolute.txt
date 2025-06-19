@@ -115,3 +115,4 @@ C:\Users\josec\OneDrive\Documentos\GitHub\DRAFTME_BACK\DRAFTME_API\bin\Debug\net
 C:\Users\josec\OneDrive\Documentos\GitHub\DRAFTME_BACK\DRAFTME_API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\josec\OneDrive\Documentos\GitHub\DRAFTME_BACK\DRAFTME_API\bin\Debug\net8.0\MySqlConnector.dll
 C:\Users\josec\OneDrive\Documentos\GitHub\DRAFTME_BACK\DRAFTME_API\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\josec\OneDrive\Documentos\GitHub\DRAFTME_BACK\DRAFTME_API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
