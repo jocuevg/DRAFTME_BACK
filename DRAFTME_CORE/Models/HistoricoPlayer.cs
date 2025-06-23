@@ -8,6 +8,6 @@ public class HistoricoPlayer
     public int Goles { get; set; }
     public int Asistencias { get; set; }
     public int Minutos { get; set; }
-    public int HistoricoTeamId { get; set; }
-    public HistoricoTeam HistoricoTeam { get; set; }
+    public int? HistoricoTeamId { get; set; }
+    public HistoricoTeam? HistoricoTeam { get; set; }
 }

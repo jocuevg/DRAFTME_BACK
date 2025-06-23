@@ -5,6 +5,8 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 
 builder.Services.AddControllers();
+builder.Services.AddSingleton<IConfiguration>(builder.Configuration);
+
 
 var config = builder.Configuration;
 var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
