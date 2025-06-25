@@ -9,9 +9,6 @@
   <ItemGroup>
     <Folder Include="Services\Categorias\Commands\Update\" />
     <Folder Include="Services\Categorias\Commands\Delete\" />
-    <Folder Include="Services\Categorias\Commands\Create\" />
-    <Folder Include="Services\Categorias\Queries\GetById\" />
-    <Folder Include="Services\Categorias\Queries\GetAll\" />
     <Folder Include="Services\Historicos\Players\Commands\Create\" />
     <Folder Include="Services\Historicos\Players\Commands\Delete\" />
     <Folder Include="Services\Historicos\Players\Commands\Update\" />
@@ -27,11 +24,6 @@
     <Folder Include="Services\Players\Commands\Update\" />
     <Folder Include="Services\Players\Queries\GetAll\" />
     <Folder Include="Services\Players\Queries\GetById\" />
-    <Folder Include="Services\Scouters\Commands\Create\" />
-    <Folder Include="Services\Scouters\Commands\Delete\" />
-    <Folder Include="Services\Scouters\Commands\Update\" />
-    <Folder Include="Services\Scouters\Queries\GetAll\" />
-    <Folder Include="Services\Scouters\Queries\GetById\" />
   </ItemGroup>
 
   <ItemGroup>

@@ -4,7 +4,7 @@ using FluentValidation;
 using Microsoft.EntityFrameworkCore;
 
 namespace DRAFTME_BUSINESS.Services.Users.Commands.Update;
-internal class UpdateUserValidation : AbstractValidator<UpdateUser>
+public class UpdateUserValidation : AbstractValidator<UpdateUser>
 {
     public UpdateUserValidation(IRepository<User> repository)
     {
