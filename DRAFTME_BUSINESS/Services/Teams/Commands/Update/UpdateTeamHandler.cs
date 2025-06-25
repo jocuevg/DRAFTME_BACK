@@ -1,5 +1,4 @@
 ﻿using AutoMapper;
-using DRAFTME_BUSINESS.Services.Teams.Commands.Create;
 using DRAFTME_CORE.DTOs;
 using DRAFTME_CORE.Interfaces;
 using DRAFTME_CORE.Models;
@@ -7,7 +6,6 @@ using FluentValidation;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
-using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace DRAFTME_BUSINESS.Services.Teams.Commands.Update;
 public class UpdateTeamHandler(IRepository<Team> repository, IValidator<UpdateTeam> validator, IConfiguration configuration, Mapper mapper)

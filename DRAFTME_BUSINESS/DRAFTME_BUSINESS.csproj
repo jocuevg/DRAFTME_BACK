@@ -7,8 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Services\Categorias\Commands\Update\" />
-    <Folder Include="Services\Categorias\Commands\Delete\" />
     <Folder Include="Services\Historicos\Players\Commands\Create\" />
     <Folder Include="Services\Historicos\Players\Commands\Delete\" />
     <Folder Include="Services\Historicos\Players\Commands\Update\" />
@@ -20,10 +18,7 @@
     <Folder Include="Services\Historicos\Teams\Queries\GetAll\" />
     <Folder Include="Services\Historicos\Teams\Queries\GetById\" />
     <Folder Include="Services\Players\Commands\Create\" />
-    <Folder Include="Services\Players\Commands\Delete\" />
     <Folder Include="Services\Players\Commands\Update\" />
-    <Folder Include="Services\Players\Queries\GetAll\" />
-    <Folder Include="Services\Players\Queries\GetById\" />
   </ItemGroup>
 
   <ItemGroup>
