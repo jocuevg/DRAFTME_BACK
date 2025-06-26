@@ -3,7 +3,6 @@ using DRAFTME_CORE.Models;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
-using System.Diagnostics.Metrics;
 
 namespace DRAFTME_BUSINESS.Services.Players.Commands.Delete;
 public class DeletePlayerHandler(IRepository<Player> repository, IRepository<HistoricoPlayer> repositoryHistorico, IRepository<User> repositoryUser, IConfiguration configuration)
