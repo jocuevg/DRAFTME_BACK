@@ -6,7 +6,7 @@ using FluentValidation;
 using MediatR;
 
 namespace DRAFTME_BUSINESS.Services.Scouters.Commands.Create;
-public class CreateScouterHandler(IRepository<Scouter> repository, IValidator<CreateScouter> validator, Mapper mapper) : IRequestHandler<CreateScouter, ScouterDTO>
+public class CreateScouterHandler(IRepository<Scouter> repository, IValidator<CreateScouter> validator, IMapper mapper) : IRequestHandler<CreateScouter, ScouterDTO>
 {
     public async Task<ScouterDTO> Handle(CreateScouter request, CancellationToken cancellationToken)
     {

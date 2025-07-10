@@ -6,7 +6,7 @@ using FluentValidation;
 using MediatR;
 
 namespace DRAFTME_BUSINESS.Services.Users.Commands.Create;
-public class CreateUserHandler(IRepository<User> repository, IValidator<CreateUser> validator, Mapper mapper) : IRequestHandler<CreateUser, UserDTO>
+public class CreateUserHandler(IRepository<User> repository, IValidator<CreateUser> validator, IMapper mapper) : IRequestHandler<CreateUser, UserDTO>
 {
     public async Task<UserDTO> Handle(CreateUser request, CancellationToken cancellationToken)
     {

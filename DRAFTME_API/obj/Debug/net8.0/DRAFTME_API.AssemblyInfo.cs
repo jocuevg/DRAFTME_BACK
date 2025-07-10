@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DRAFTME_API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5f627a15965dcc6ed59880471fcb68d17cf09e79")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3289c9ef4947c780a9f542b897de51da482b8368")]
 [assembly: System.Reflection.AssemblyProductAttribute("DRAFTME_API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DRAFTME_API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

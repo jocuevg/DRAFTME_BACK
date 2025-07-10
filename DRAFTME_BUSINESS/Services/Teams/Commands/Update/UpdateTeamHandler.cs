@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 
 namespace DRAFTME_BUSINESS.Services.Teams.Commands.Update;
-public class UpdateTeamHandler(IRepository<Team> repository, IValidator<UpdateTeam> validator, IConfiguration configuration, Mapper mapper)
+public class UpdateTeamHandler(IRepository<Team> repository, IValidator<UpdateTeam> validator, IConfiguration configuration, IMapper mapper)
     : IRequestHandler<UpdateTeam, TeamDTO>
 {
     private readonly string _folderPath = configuration["ImagesPath"];

@@ -6,7 +6,7 @@ using MediatR;
 using Microsoft.EntityFrameworkCore;
 
 namespace DRAFTME_BUSINESS.Services.Historicos.Teams.Queries.GetAllByTeam;
-public class GetAllHistoricoTeamByTeamHandler(IRepository<HistoricoTeam> repository, Mapper mapper)
+public class GetAllHistoricoTeamByTeamHandler(IRepository<HistoricoTeam> repository, IMapper mapper)
     : IRequestHandler<GetAllHistoricoTeamByTeam, List<HistoricoTeamDTOSumarized>>
 {
     public async Task<List<HistoricoTeamDTOSumarized>> Handle(GetAllHistoricoTeamByTeam request, CancellationToken cancellationToken)

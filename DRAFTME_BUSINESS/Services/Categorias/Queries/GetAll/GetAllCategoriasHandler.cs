@@ -6,7 +6,7 @@ using MediatR;
 using Microsoft.EntityFrameworkCore;
 
 namespace DRAFTME_BUSINESS.Services.Categorias.Queries.GetAll;
-public class GetAllCategoriasHandler(IRepository<Categoria> repository, Mapper mapper) : IRequestHandler<GetAllCategorias, List<CategoriaDTOSumarized>>
+public class GetAllCategoriasHandler(IRepository<Categoria> repository, IMapper mapper) : IRequestHandler<GetAllCategorias, List<CategoriaDTOSumarized>>
 {
     public async Task<List<CategoriaDTOSumarized>> Handle(GetAllCategorias request, CancellationToken cancellationToken)
     {

@@ -6,7 +6,7 @@ using MediatR;
 using Microsoft.EntityFrameworkCore;
 
 namespace DRAFTME_BUSINESS.Services.Players.Queries.GetAll;
-public class GetAllPlayersHandler(IRepository<Player> repository, Mapper mapper) : IRequestHandler<GetAllPlayers, List<PlayerDTOSumarized>>
+public class GetAllPlayersHandler(IRepository<Player> repository, IMapper mapper) : IRequestHandler<GetAllPlayers, List<PlayerDTOSumarized>>
 {
     public async Task<List<PlayerDTOSumarized>> Handle(GetAllPlayers request, CancellationToken cancellationToken)
     {

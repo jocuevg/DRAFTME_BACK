@@ -6,7 +6,7 @@ using FluentValidation;
 using MediatR;
 
 namespace DRAFTME_BUSINESS.Services.Historicos.Teams.Commands.Create;
-public class CreateHistoricoTeamHandler(IRepository<HistoricoTeam> repository, IValidator<CreateHistoricoTeam> validator, Mapper mapper) : IRequestHandler<CreateHistoricoTeam, HistoricoTeamDTO>
+public class CreateHistoricoTeamHandler(IRepository<HistoricoTeam> repository, IValidator<CreateHistoricoTeam> validator, IMapper mapper) : IRequestHandler<CreateHistoricoTeam, HistoricoTeamDTO>
 {
     public async Task<HistoricoTeamDTO> Handle(CreateHistoricoTeam request, CancellationToken cancellationToken)
     {

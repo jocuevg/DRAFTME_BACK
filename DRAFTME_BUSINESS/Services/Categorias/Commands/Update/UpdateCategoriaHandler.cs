@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 
 namespace DRAFTME_BUSINESS.Services.Categorias.Commands.Update;
-public class UpdateCategoriaHandler(IRepository<Categoria> repository, IValidator<UpdateCategoria> validator, IConfiguration configuration, Mapper mapper)
+public class UpdateCategoriaHandler(IRepository<Categoria> repository, IValidator<UpdateCategoria> validator, IConfiguration configuration, IMapper mapper)
     : IRequestHandler<UpdateCategoria, CategoriaDTO>
 {
     private readonly string _folderPath = configuration["ImagesPath"];

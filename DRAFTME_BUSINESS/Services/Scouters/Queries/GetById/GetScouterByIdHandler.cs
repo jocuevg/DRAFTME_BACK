@@ -6,7 +6,7 @@ using MediatR;
 using Microsoft.EntityFrameworkCore;
 
 namespace DRAFTME_BUSINESS.Services.Scouters.Queries.GetById;
-public class GetScouterByIdHandler(IRepository<Scouter> repository, Mapper mapper) : IRequestHandler<GetScouterById, ScouterDTO>
+public class GetScouterByIdHandler(IRepository<Scouter> repository, IMapper mapper) : IRequestHandler<GetScouterById, ScouterDTO>
 {
     public async Task<ScouterDTO> Handle(GetScouterById request, CancellationToken cancellationToken)
     {

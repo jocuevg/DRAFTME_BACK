@@ -7,7 +7,7 @@ using MediatR;
 using Microsoft.Extensions.Configuration;
 
 namespace DRAFTME_BUSINESS.Services.Categorias.Commands.Create;
-public class CreateCategoriaHandler(IRepository<Categoria> repository, IValidator<CreateCategoria> validator, IConfiguration configuration, Mapper mapper)
+public class CreateCategoriaHandler(IRepository<Categoria> repository, IValidator<CreateCategoria> validator, IConfiguration configuration, IMapper mapper)
     : IRequestHandler<CreateCategoria, CategoriaDTO>
 {
     private readonly string _folderPath = configuration["ImagesPath"];

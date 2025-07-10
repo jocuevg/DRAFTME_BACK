@@ -6,7 +6,7 @@ using MediatR;
 using Microsoft.EntityFrameworkCore;
 
 namespace DRAFTME_BUSINESS.Services.Teams.Queries.GetAll;
-public class GetAllTeamsHandler(IRepository<Team> repository, Mapper mapper) : IRequestHandler<GetAllTeams, List<TeamDTOSumarized>>
+public class GetAllTeamsHandler(IRepository<Team> repository, IMapper mapper) : IRequestHandler<GetAllTeams, List<TeamDTOSumarized>>
 {
     public async Task<List<TeamDTOSumarized>> Handle(GetAllTeams request, CancellationToken cancellationToken)
     {

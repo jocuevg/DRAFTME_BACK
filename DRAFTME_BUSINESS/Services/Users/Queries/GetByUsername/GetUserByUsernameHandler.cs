@@ -5,8 +5,8 @@ using DRAFTME_CORE.Models;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 
-namespace DRAFTME_BUSINESS.Services.Users.Queries.GetById;
-public class GetUserByUsernameHandler(IRepository<User> repository, Mapper mapper) : IRequestHandler<GetUserByUsername, UserDTO>
+namespace DRAFTME_BUSINESS.Services.Users.Queries.GetUserByUsername;
+public class GetUserByUsernameHandler(IRepository<User> repository, IMapper mapper) : IRequestHandler<GetUserByUsername, UserDTO>
 {
     public async Task<UserDTO> Handle(GetUserByUsername request, CancellationToken cancellationToken)
     {

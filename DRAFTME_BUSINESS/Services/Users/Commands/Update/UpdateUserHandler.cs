@@ -7,7 +7,7 @@ using MediatR;
 using Microsoft.EntityFrameworkCore;
 
 namespace DRAFTME_BUSINESS.Services.Users.Commands.Update;
-public class UpdateUserHandler(IRepository<User> repository, IValidator<UpdateUser> validator, Mapper mapper) : IRequestHandler<UpdateUser, UserDTO>
+public class UpdateUserHandler(IRepository<User> repository, IValidator<UpdateUser> validator, IMapper mapper) : IRequestHandler<UpdateUser, UserDTO>
 {
     public async Task<UserDTO> Handle(UpdateUser request, CancellationToken cancellationToken)
     {

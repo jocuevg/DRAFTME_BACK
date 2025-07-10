@@ -6,7 +6,7 @@ using MediatR;
 using Microsoft.EntityFrameworkCore;
 
 namespace DRAFTME_BUSINESS.Services.Scouters.Queries.GetAll;
-public class GetAllScoutersHandler(IRepository<Scouter> repository, Mapper mapper) : IRequestHandler<GetAllScouters, List<ScouterDTO>>
+public class GetAllScoutersHandler(IRepository<Scouter> repository, IMapper mapper) : IRequestHandler<GetAllScouters, List<ScouterDTO>>
 {
     public async Task<List<ScouterDTO>> Handle(GetAllScouters request, CancellationToken cancellationToken)
     {

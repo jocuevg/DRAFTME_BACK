@@ -7,7 +7,7 @@ using MediatR;
 using Microsoft.EntityFrameworkCore;
 
 namespace DRAFTME_BUSINESS.Services.Scouters.Commands.Update;
-public class UpdateScouterHandler(IRepository<Scouter> repository, IValidator<UpdateScouter> validator, Mapper mapper) : IRequestHandler<UpdateScouter, ScouterDTO>
+public class UpdateScouterHandler(IRepository<Scouter> repository, IValidator<UpdateScouter> validator, IMapper mapper) : IRequestHandler<UpdateScouter, ScouterDTO>
 {
     public async Task<ScouterDTO> Handle(UpdateScouter request, CancellationToken cancellationToken)
     {

@@ -6,7 +6,7 @@ using MediatR;
 using Microsoft.EntityFrameworkCore;
 
 namespace DRAFTME_BUSINESS.Services.Historicos.Players.Queries.GetAllByPlayer;
-public class GetAllHistoricoPlayerByPlayerHandler(IRepository<HistoricoPlayer> repository, Mapper mapper)
+public class GetAllHistoricoPlayerByPlayerHandler(IRepository<HistoricoPlayer> repository, IMapper mapper)
     : IRequestHandler<GetAllHistoricoPlayerByPlayer, List<HistoricoPlayerDTO>>
 {
     public async Task<List<HistoricoPlayerDTO>> Handle(GetAllHistoricoPlayerByPlayer request, CancellationToken cancellationToken)

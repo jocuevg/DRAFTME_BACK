@@ -7,7 +7,7 @@ using MediatR;
 using Microsoft.Extensions.Configuration;
 
 namespace DRAFTME_BUSINESS.Services.Players.Commands.Create;
-public class CreatePlayerHandler(IRepository<Player> repository, IValidator<CreatePlayer> validator, IConfiguration configuration, Mapper mapper)
+public class CreatePlayerHandler(IRepository<Player> repository, IValidator<CreatePlayer> validator, IConfiguration configuration, IMapper mapper)
     : IRequestHandler<CreatePlayer, PlayerDTO>
 {
     private readonly string _folderPath = configuration["ImagesPath"];

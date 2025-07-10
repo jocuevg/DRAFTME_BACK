@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 
 namespace DRAFTME_BUSINESS.Services.Players.Commands.Update;
-public class UpdatePlayerHandler(IRepository<Player> repository, IValidator<UpdatePlayer> validator, IConfiguration configuration, Mapper mapper)
+public class UpdatePlayerHandler(IRepository<Player> repository, IValidator<UpdatePlayer> validator, IConfiguration configuration, IMapper mapper)
     : IRequestHandler<UpdatePlayer, PlayerDTO>
 {
     private readonly string _folderPath = configuration["ImagesPath"];

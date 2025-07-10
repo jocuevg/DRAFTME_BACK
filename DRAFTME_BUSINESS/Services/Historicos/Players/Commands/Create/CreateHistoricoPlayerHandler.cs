@@ -6,7 +6,7 @@ using FluentValidation;
 using MediatR;
 
 namespace DRAFTME_BUSINESS.Services.Historicos.Players.Commands.Create;
-public class CreateHistoricoPlayerHandler(IRepository<HistoricoPlayer> repository, IValidator<CreateHistoricoPlayer> validator, Mapper mapper) : IRequestHandler<CreateHistoricoPlayer, HistoricoPlayerDTO>
+public class CreateHistoricoPlayerHandler(IRepository<HistoricoPlayer> repository, IValidator<CreateHistoricoPlayer> validator, IMapper mapper) : IRequestHandler<CreateHistoricoPlayer, HistoricoPlayerDTO>
 {
     public async Task<HistoricoPlayerDTO> Handle(CreateHistoricoPlayer request, CancellationToken cancellationToken)
     {

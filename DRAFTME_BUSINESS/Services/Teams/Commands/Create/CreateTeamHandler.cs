@@ -7,7 +7,7 @@ using MediatR;
 using Microsoft.Extensions.Configuration;
 
 namespace DRAFTME_BUSINESS.Services.Teams.Commands.Create;
-public class CreateTeamHandler(IRepository<Team> repository, IValidator<CreateTeam> validator, IConfiguration configuration, Mapper mapper) 
+public class CreateTeamHandler(IRepository<Team> repository, IValidator<CreateTeam> validator, IConfiguration configuration, IMapper mapper) 
     : IRequestHandler<CreateTeam, TeamDTO>
 {
     private readonly string _folderPath = configuration["ImagesPath"];

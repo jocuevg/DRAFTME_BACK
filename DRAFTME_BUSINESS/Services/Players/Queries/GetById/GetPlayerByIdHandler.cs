@@ -6,7 +6,7 @@ using MediatR;
 using Microsoft.EntityFrameworkCore;
 
 namespace DRAFTME_BUSINESS.Services.Players.Queries.GetById;
-public class GetPlayerByIdHandler(IRepository<Player> repository, Mapper mapper) : IRequestHandler<GetPlayerById, PlayerDTO>
+public class GetPlayerByIdHandler(IRepository<Player> repository, IMapper mapper) : IRequestHandler<GetPlayerById, PlayerDTO>
 {
     public async Task<PlayerDTO> Handle(GetPlayerById request, CancellationToken cancellationToken)
     {

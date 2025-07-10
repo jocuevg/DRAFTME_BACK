@@ -1,4 +1,7 @@
+using DRAFTME_API.Middlewares;
+using DRAFTME_BUSINESS.Extensions;
 using DRAFTME_INFRA.Extensions;
+using Microsoft.AspNetCore.Http.Features;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -19,8 +22,14 @@ builder.Services.AddCors(o => o.AddPolicy(MyAllowSpecificOrigins, builder =>
            .AllowCredentials();
 }));
 
+builder.Services.Configure<FormOptions>(options =>
+{
+    options.MultipartBodyLengthLimit = 10 * 1024 * 1024; // 10MB de límite
+});
+
 builder.Services.AddCustomDraftMeDBContext(config);
 builder.Services.ConfigureInfraestructure();
+builder.Services.AddBusinessLayer();
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
@@ -35,8 +44,12 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseHttpsRedirection();
+app.UseMiddleware<ExceptionHandlingMiddleware>();
 
+app.UseHttpsRedirection();
+app.UseCors(MyAllowSpecificOrigins);
+
+app.UseRouting();
 app.UseAuthorization();
 
 app.MapControllers();

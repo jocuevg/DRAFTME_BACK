@@ -7,7 +7,7 @@ using MediatR;
 using Microsoft.EntityFrameworkCore;
 
 namespace DRAFTME_BUSINESS.Services.Historicos.Teams.Commands.Update;
-public class UpdateHistoricoTeamHandler(IRepository<HistoricoTeam> repository, IValidator<UpdateHistoricoTeam> validator, Mapper mapper) : IRequestHandler<UpdateHistoricoTeam, HistoricoTeamDTO>
+public class UpdateHistoricoTeamHandler(IRepository<HistoricoTeam> repository, IValidator<UpdateHistoricoTeam> validator, IMapper mapper) : IRequestHandler<UpdateHistoricoTeam, HistoricoTeamDTO>
 {
     public async Task<HistoricoTeamDTO> Handle(UpdateHistoricoTeam request, CancellationToken cancellationToken)
     {
