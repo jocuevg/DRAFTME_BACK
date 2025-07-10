@@ -16,10 +16,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\DRAFTME_BUSINESS\DRAFTME_BUSINESS.csproj" />
     <ProjectReference Include="..\DRAFTME_INFRA\DRAFTME_INFRA.csproj" />
   </ItemGroup>

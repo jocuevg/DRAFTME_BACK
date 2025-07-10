@@ -115,7 +115,6 @@ C:\Users\josec\OneDrive\Documentos\GitHub\DRAFTME_BACK\DRAFTME_API\obj\Debug\net
 C:\Users\josec\OneDrive\Documentos\GitHub\DRAFTME_BACK\DRAFTME_API\obj\Debug\net8.0\staticwebassets.build.json.cache
 C:\Users\josec\OneDrive\Documentos\GitHub\DRAFTME_BACK\DRAFTME_API\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\josec\OneDrive\Documentos\GitHub\DRAFTME_BACK\DRAFTME_API\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-C:\Users\josec\OneDrive\Documentos\GitHub\DRAFTME_BACK\DRAFTME_API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\josec\OneDrive\Documentos\GitHub\DRAFTME_BACK\DRAFTME_API\obj\Debug\net8.0\DRAFTME_.BC32F8B2.Up2Date
 C:\Users\josec\OneDrive\Documentos\GitHub\DRAFTME_BACK\DRAFTME_API\obj\Debug\net8.0\DRAFTME_API.dll
 C:\Users\josec\OneDrive\Documentos\GitHub\DRAFTME_BACK\DRAFTME_API\obj\Debug\net8.0\refint\DRAFTME_API.dll
