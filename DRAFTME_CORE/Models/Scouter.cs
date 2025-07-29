@@ -8,4 +8,6 @@ public class Scouter
     public string Biografia { get; set; }
     public string UserId { get; set; }  // username
     public User User { get; set; }
+    public int? TeamId { get; set; }
+    public Team? Team { get; set; }
 }

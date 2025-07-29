@@ -24,7 +24,7 @@ public class UpdateTeamHandler(IRepository<Team> repository, IValidator<UpdateTe
             .Include(x => x.Categoria)
             .Include(x => x.Historico)
                 .ThenInclude(x => x.Categoria)
-            .Include(x => x.Plantilla)
+            .Include(x => x.Ofertas)
             .FirstOrDefaultAsync(x => x.Id == request.Id, cancellationToken);
 
         if (team.Escudo != null)

@@ -11,6 +11,6 @@ public class Team
     public int Clasificacion { get; set; }
     public int Puntos { get; set; }
     public List<HistoricoTeam> Historico { get; set; } = new();
-    public List<Player> Plantilla { get; set; } = new();
+    public List<Oferta> Ofertas { get; set; } = new();
     public string? Escudo { get; set; }
 }

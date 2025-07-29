@@ -21,8 +21,6 @@ public class UpdateHistoricoTeamHandler(IRepository<HistoricoTeam> repository, I
             .Include(x => x.Categoria)
             .Include(x => x.Team)
                 .ThenInclude(x => x.Categoria)
-            .Include(x => x.Plantilla)
-                .ThenInclude(x => x.Player)
             .FirstOrDefaultAsync(x => x.Id == request.Id, cancellationToken);
 
         historico.TeamId = request.TeamId;

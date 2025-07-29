@@ -10,7 +10,11 @@ public class GetScouterByIdHandler(IRepository<Scouter> repository, IMapper mapp
 {
     public async Task<ScouterDTO> Handle(GetScouterById request, CancellationToken cancellationToken)
     {
-        var scouter = await repository.Query.Include(x=>x.User).FirstOrDefaultAsync(x => x.Id == request.Id, cancellationToken);
+        var scouter = await repository.Query
+            .Include(x=>x.User)
+            .Include(x => x.Team)
+                .ThenInclude(x => x.Categoria)
+            .FirstOrDefaultAsync(x => x.Id == request.Id, cancellationToken);
 
         if (scouter is null)
         {

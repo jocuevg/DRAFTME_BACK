@@ -18,7 +18,7 @@ public class UpdatePlayerValidation : AbstractValidator<UpdatePlayer>
         RuleFor(x => x.UserId).MustAsync(async (username, cancellationToken) =>
             await repository.Query.AllAsync(x => x.Username != username, cancellationToken)).WithMessage("Nombre de usuario ocupado");
         RuleFor(x => x.TeamId).MustAsync(async (team, cancellationToken) =>
-            await repositoryTeam.Query.AnyAsync(x => x.Id == team, cancellationToken)).WithMessage("Equipo no existe");
+            await repositoryTeam.Query.AnyAsync(x => x.Id == team, cancellationToken)).WithMessage("Equipo no existe").When(x => x.TeamId.HasValue);
 
         RuleFor(x => x.Goles).GreaterThanOrEqualTo(0).WithMessage("Número de goles inválido");
         RuleFor(x => x.Asistencias).GreaterThanOrEqualTo(0).WithMessage("Número de asistencias inválido");

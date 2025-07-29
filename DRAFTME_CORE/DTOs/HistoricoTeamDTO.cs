@@ -9,5 +9,4 @@ public class HistoricoTeamDTO
     public CategoriaDTOSumarized Categoria { get; set; }
     public int Clasificacion { get; set; }
     public int Puntos { get; set; }
-    public List<HistoricoPlayerDTO> Plantilla { get; set; } = new();
 }

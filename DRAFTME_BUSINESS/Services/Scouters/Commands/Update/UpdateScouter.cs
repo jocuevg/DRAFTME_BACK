@@ -10,6 +10,7 @@ public class UpdateScouter : IRequest<ScouterDTO>
     public DateTime Nacimiento { get; set; }
     public string Biografia { get; set; }
     public string? UserId { get; set; }
+    public int? TeamId { get; set; }
 }
 
 public class UpdateScouterRequest
@@ -19,4 +20,5 @@ public class UpdateScouterRequest
     public DateTime Nacimiento { get; set; }
     public string Biografia { get; set; }
     public string? UserId { get; set; }
+    public int? TeamId { get; set; }
 }

@@ -9,4 +9,5 @@ public class CreateScouter : IRequest<ScouterDTO>
     public DateTime Nacimiento { get; set; }
     public string Biografia { get; set; }
     public string UserId { get; set; }
+    public int? TeamId { get; set; }
 }

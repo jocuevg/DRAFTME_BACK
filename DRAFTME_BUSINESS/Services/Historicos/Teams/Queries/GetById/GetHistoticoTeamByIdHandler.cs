@@ -14,8 +14,6 @@ public class GetHistoticoTeamByIdHandler(IRepository<HistoricoTeam> repository, 
             .Include(x => x.Categoria)
             .Include(x => x.Team)
                 .ThenInclude(x => x.Categoria)
-            .Include(x => x.Plantilla)
-                .ThenInclude(x=>x.Player)
             .FirstOrDefaultAsync(x => x.Id == request.Id, cancellationToken);
 
         if (historico is null)

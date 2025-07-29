@@ -13,7 +13,7 @@ namespace DRAFTME_API.Controllers;
 public class HistoricoTeamController : BaseApiController
 {
     [HttpGet("AllByTeam/{id}")]
-    public async Task<List<HistoricoTeamDTOSumarized>> GetAllHistoricoTeamByTeamAsync(int id)
+    public async Task<List<HistoricoTeamDTO>> GetAllHistoricoTeamByTeamAsync(int id)
     {
         return await Mediator.Send(new GetAllHistoricoTeamByTeam() { TeamId = id });
     }

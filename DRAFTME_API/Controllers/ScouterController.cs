@@ -47,6 +47,7 @@ public class ScouterController : BaseApiController
             Nacimiento = update.Nacimiento,
             Biografia = update.Biografia,
             UserId = update.UserId,
+            TeamId = update.TeamId,
         });
     }
 }

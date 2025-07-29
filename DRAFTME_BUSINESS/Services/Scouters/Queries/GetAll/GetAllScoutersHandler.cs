@@ -10,6 +10,7 @@ public class GetAllScoutersHandler(IRepository<Scouter> repository, IMapper mapp
 {
     public async Task<List<ScouterDTO>> Handle(GetAllScouters request, CancellationToken cancellationToken)
     {
-        return await repository.Query.Select(x => mapper.Map<ScouterDTO>(x)).ToListAsync(cancellationToken);
+        return await repository.Query.Include(x => x.Team).ThenInclude(x => x.Categoria)
+            .Select(x => mapper.Map<ScouterDTO>(x)).ToListAsync(cancellationToken);
     }
 }

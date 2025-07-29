@@ -4,6 +4,8 @@ using DRAFTME_BUSINESS.Services.Historicos.Players.Commands.Create;
 using DRAFTME_BUSINESS.Services.Historicos.Players.Commands.Update;
 using DRAFTME_BUSINESS.Services.Historicos.Teams.Commands.Create;
 using DRAFTME_BUSINESS.Services.Historicos.Teams.Commands.Update;
+using DRAFTME_BUSINESS.Services.Ofertas.Commands.Create;
+using DRAFTME_BUSINESS.Services.Ofertas.Commands.Update;
 using DRAFTME_BUSINESS.Services.Players.Commands.Create;
 using DRAFTME_BUSINESS.Services.Players.Commands.Update;
 using DRAFTME_BUSINESS.Services.Scouters.Commands.Create;
@@ -39,6 +41,8 @@ public static class ServiceExtension
         services.AddScoped(typeof(IValidator<UpdateHistoricoPlayer>), typeof(UpdateHistoricoPlayerValidation));
         services.AddScoped(typeof(IValidator<CreateHistoricoTeam>), typeof(CreateHistoricoTeamValidation));
         services.AddScoped(typeof(IValidator<UpdateHistoricoTeam>), typeof(UpdateHistoricoTeamValidation));
+        services.AddScoped(typeof(IValidator<CreateOferta>), typeof(CreateOfertaValidation));
+        services.AddScoped(typeof(IValidator<UpdateOferta>), typeof(UpdateOfertaValidation));
 
         services.AddAutoMapper(typeof(ServiceExtension).Assembly);
 

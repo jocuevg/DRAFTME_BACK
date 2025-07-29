@@ -8,4 +8,6 @@ public class ScouterDTO
     public string Biografia { get; set; }
     public string UserId { get; set; }  // username
     public UserDTO User { get; set; }
+    public int? TeamId { get; set; }
+    public TeamDTOSumarized? Team { get; set; }
 }

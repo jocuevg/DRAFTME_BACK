@@ -8,11 +8,7 @@ public class DeleteHistoricoTeamHandler(IRepository<HistoricoTeam> repository) :
 {
     public async Task Handle(DeleteHistoricoTeam request, CancellationToken cancellationToken)
     {
-        var historico = await repository.Query.Include(x => x.Plantilla).FirstOrDefaultAsync(x => x.Id == request.Id, cancellationToken);
-        foreach (var item in historico.Plantilla)
-        {
-            item.HistoricoTeamId = null;
-        }
+        var historico = await repository.Query.FirstOrDefaultAsync(x => x.Id == request.Id, cancellationToken);
         repository.Delete(historico);
         await repository.SaveChangesAsync();
     }

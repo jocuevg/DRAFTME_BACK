@@ -27,6 +27,7 @@ public class UpdateScouterHandler(IRepository<Scouter> repository, IValidator<Up
             scouter.UserId = request.UserId;
             scouter.User.Username = request.UserId;
         }
+        scouter.TeamId = request.TeamId;
         await repository.SaveChangesAsync();
         return mapper.Map<ScouterDTO>(scouter);
     }

@@ -9,5 +9,4 @@ public class HistoricoTeam
     public Categoria Categoria { get; set; }
     public int Clasificacion { get; set; }
     public int Puntos { get; set; }
-    public List<HistoricoPlayer> Plantilla { get; set; } = new();
 }

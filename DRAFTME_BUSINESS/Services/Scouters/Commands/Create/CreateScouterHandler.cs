@@ -22,6 +22,7 @@ public class CreateScouterHandler(IRepository<Scouter> repository, IValidator<Cr
             Nacimiento = request.Nacimiento,
             Biografia = request.Biografia,
             UserId = request.UserId,
+            TeamId = request.TeamId,
         };
         repository.Add(scouter);
         await repository.SaveChangesAsync();

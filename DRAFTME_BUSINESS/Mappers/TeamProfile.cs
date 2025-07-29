@@ -12,7 +12,7 @@ public class TeamProfile : Profile
             .ForMember(dest => dest.Estadio, opt => opt.Ignore())
             .ForMember(dest => dest.Puntos, opt => opt.Ignore())
             .ForMember(dest => dest.Historico, opt => opt.Ignore())
-            .ForMember(dest => dest.Plantilla, opt => opt.Ignore());
+            .ForMember(dest => dest.Ofertas, opt => opt.Ignore());
         CreateMap<Team, TeamDTO>().ReverseMap();
     }
 }

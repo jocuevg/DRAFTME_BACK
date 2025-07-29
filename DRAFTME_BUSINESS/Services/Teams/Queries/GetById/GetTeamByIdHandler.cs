@@ -14,7 +14,7 @@ public class GetTeamByIdHandler(IRepository<Team> repository, IMapper mapper) : 
             .Include(x => x.Categoria)
             .Include(x => x.Historico)
                 .ThenInclude(x=> x.Categoria)
-            .Include(x => x.Plantilla)
+            .Include(x => x.Ofertas)
             .FirstOrDefaultAsync(x => x.Id == request.Id, cancellationToken);
 
         if (team is null)

@@ -10,7 +10,7 @@ public class TeamDTO
     public CategoriaDTOSumarized Categoria { get; set; }
     public int Clasificacion { get; set; }
     public int Puntos { get; set; }
-    public List<HistoricoTeamDTOSumarized> Historico { get; set; } = new();
-    public List<PlayerDTOSumarized> Plantilla { get; set; } = new();
+    public List<HistoricoTeamDTO> Historico { get; set; } = new();
+    public List<OfertaDTO> Ofertas { get; set; } = new();
     public string? Escudo { get; set; }
 }

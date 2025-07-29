@@ -15,4 +15,5 @@ public class DraftMeDBContext : DbContext
     public DbSet<Scouter> Scouters { get; set; }
     public DbSet<Team> Teams { get; set; }
     public DbSet<User> Users { get; set; }
+    public DbSet<Oferta> Ofertas { get; set; }
 }

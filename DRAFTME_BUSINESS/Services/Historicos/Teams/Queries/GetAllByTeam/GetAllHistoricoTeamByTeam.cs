@@ -2,7 +2,7 @@
 using MediatR;
 
 namespace DRAFTME_BUSINESS.Services.Historicos.Teams.Queries.GetAllByTeam;
-public class GetAllHistoricoTeamByTeam : IRequest<List<HistoricoTeamDTOSumarized>>
+public class GetAllHistoricoTeamByTeam : IRequest<List<HistoricoTeamDTO>>
 {
     public int TeamId { get; set; }
 }
