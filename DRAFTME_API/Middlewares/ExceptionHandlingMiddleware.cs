@@ -28,7 +28,7 @@ public class ExceptionHandlingMiddleware
     {
         ExceptionResponse response = exception switch
         {
-            KeyNotFoundException _ => new ExceptionResponse(HttpStatusCode.NotFound, "The request key not found."),
+            KeyNotFoundException _ => new ExceptionResponse(HttpStatusCode.NotFound, exception.Message),
             FormatException _ => new ExceptionResponse(HttpStatusCode.UnprocessableEntity, exception.Message),
             _ => new ExceptionResponse(HttpStatusCode.InternalServerError, "Internal server error. Please retry later.")
         };

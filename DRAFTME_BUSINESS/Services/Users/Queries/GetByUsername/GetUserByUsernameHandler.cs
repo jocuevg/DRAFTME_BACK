@@ -14,7 +14,7 @@ public class GetUserByUsernameHandler(IRepository<User> repository, IMapper mapp
 
         if (user is null)
         {
-            throw new KeyNotFoundException($"No se ha encontrado el usuario con username: {request.Username}");
+            throw new KeyNotFoundException($"No se ha encontrado el usuario {request.Username}");
         }
         else
         {

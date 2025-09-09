@@ -37,7 +37,7 @@ public class UserController : BaseApiController
     }
 
     [HttpPut("{id}")]
-    public async Task Update(int id, UpdateUser update)
+    public async Task Update(string id, UpdateUser update)
     {
         await Mediator.Send(update);
     }

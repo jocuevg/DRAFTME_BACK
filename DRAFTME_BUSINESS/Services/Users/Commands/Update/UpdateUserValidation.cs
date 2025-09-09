@@ -11,8 +11,15 @@ public class UpdateUserValidation : AbstractValidator<UpdateUser>
         RuleFor(x => x.Username).MustAsync(async (username, cancellationToken) =>
             await repository.Query.AnyAsync(x => x.Username == username, cancellationToken)).WithMessage("Usuario no existe");
         RuleFor(x => x.NewUsername).MaximumLength(20).WithMessage("Maximo nombre de usuario de 20 caracteres");
-        RuleFor(x => x.NewUsername).MustAsync(async (username, cancellationToken) =>
-            await repository.Query.AllAsync(x => x.Username != username, cancellationToken)).WithMessage("Nombre de usuario ocupado");
+        RuleFor(x => x.NewUsername).MustAsync(async (model, newUsername, cancellationToken) =>
+        {
+            // Si no cambió el username, se permite
+            if (model.Username == newUsername)
+                return true;
+
+            // Si lo cambió, verificamos que no exista otro igual
+            return !await repository.Query.AnyAsync(u => u.Username == newUsername, cancellationToken);
+        }).WithMessage("Nombre de usuario ocupado");
         RuleFor(x => x.Rol).IsInEnum().WithMessage("El rol no es válido");
     }
 }
