@@ -44,7 +44,10 @@ public static class ServiceExtension
         services.AddScoped(typeof(IValidator<CreateOferta>), typeof(CreateOfertaValidation));
         services.AddScoped(typeof(IValidator<UpdateOferta>), typeof(UpdateOfertaValidation));
 
-        services.AddAutoMapper(typeof(ServiceExtension).Assembly);
+        services.AddAutoMapper(configuration =>
+        {
+            configuration.AddMaps(typeof(ServiceExtension).Assembly);
+        });
 
     }
 }
