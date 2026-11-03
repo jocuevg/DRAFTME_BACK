@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Dpmu1CWX8O0=",
+  "dgSpecHash": "bjv6kmmUEDU=",
   "success": true,
   "projectFilePath": "C:\\Users\\josec\\Desktop\\DRAFTME\\DRAFTME_BACK\\DRAFTME_API\\DRAFTME_API.csproj",
   "expectedPackageFiles": [
@@ -32,7 +32,7 @@
     "C:\\Users\\josec\\.nuget\\packages\\microsoft.identitymodel.tokens\\8.14.0\\microsoft.identitymodel.tokens.8.14.0.nupkg.sha512",
     "C:\\Users\\josec\\.nuget\\packages\\microsoft.openapi\\2.7.5\\microsoft.openapi.2.7.5.nupkg.sha512",
     "C:\\Users\\josec\\.nuget\\packages\\mono.texttemplating\\3.0.0\\mono.texttemplating.3.0.0.nupkg.sha512",
-    "C:\\Users\\josec\\.nuget\\packages\\mysqlconnector\\2.4.0\\mysqlconnector.2.4.0.nupkg.sha512",
+    "C:\\Users\\josec\\.nuget\\packages\\mysqlconnector\\2.6.2\\mysqlconnector.2.6.2.nupkg.sha512",
     "C:\\Users\\josec\\.nuget\\packages\\pomelo.entityframeworkcore.mysql\\9.0.0\\pomelo.entityframeworkcore.mysql.9.0.0.nupkg.sha512",
     "C:\\Users\\josec\\.nuget\\packages\\swashbuckle.aspnetcore\\10.3.1\\swashbuckle.aspnetcore.10.3.1.nupkg.sha512",
     "C:\\Users\\josec\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\10.3.1\\swashbuckle.aspnetcore.swagger.10.3.1.nupkg.sha512",
@@ -55,18 +55,6 @@
       "warningLevel": 1,
       "filePath": "C:\\Users\\josec\\Desktop\\DRAFTME\\DRAFTME_BACK\\DRAFTME_API\\DRAFTME_API.csproj",
       "libraryId": "Microsoft.Extensions.Configuration",
-      "targetGraphs": [
-        "net10.0"
-      ]
-    },
-    {
-      "code": "NU1902",
-      "level": "Warning",
-      "message": "El paquete \"MySqlConnector\" 2.4.0 tiene una vulnerabilidad de gravedad moderada conocida, https://github.com/advisories/GHSA-473q-m89c-ghf8",
-      "projectPath": "C:\\Users\\josec\\Desktop\\DRAFTME\\DRAFTME_BACK\\DRAFTME_API\\DRAFTME_API.csproj",
-      "warningLevel": 1,
-      "filePath": "C:\\Users\\josec\\Desktop\\DRAFTME\\DRAFTME_BACK\\DRAFTME_API\\DRAFTME_API.csproj",
-      "libraryId": "MySqlConnector",
       "targetGraphs": [
         "net10.0"
       ]

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "l9IyGk/8cl4=",
+  "dgSpecHash": "W2+vi4mGp7Y=",
   "success": true,
   "projectFilePath": "C:\\Users\\josec\\Desktop\\DRAFTME\\DRAFTME_BACK\\DRAFTME_INFRA\\DRAFTME_INFRA.csproj",
   "expectedPackageFiles": [
@@ -22,7 +22,7 @@
     "C:\\Users\\josec\\.nuget\\packages\\microsoft.extensions.configuration\\9.0.0\\microsoft.extensions.configuration.9.0.0.nupkg.sha512",
     "C:\\Users\\josec\\.nuget\\packages\\microsoft.extensions.dependencymodel\\9.0.0\\microsoft.extensions.dependencymodel.9.0.0.nupkg.sha512",
     "C:\\Users\\josec\\.nuget\\packages\\mono.texttemplating\\3.0.0\\mono.texttemplating.3.0.0.nupkg.sha512",
-    "C:\\Users\\josec\\.nuget\\packages\\mysqlconnector\\2.4.0\\mysqlconnector.2.4.0.nupkg.sha512",
+    "C:\\Users\\josec\\.nuget\\packages\\mysqlconnector\\2.6.2\\mysqlconnector.2.6.2.nupkg.sha512",
     "C:\\Users\\josec\\.nuget\\packages\\pomelo.entityframeworkcore.mysql\\9.0.0\\pomelo.entityframeworkcore.mysql.9.0.0.nupkg.sha512",
     "C:\\Users\\josec\\.nuget\\packages\\system.codedom\\6.0.0\\system.codedom.6.0.0.nupkg.sha512",
     "C:\\Users\\josec\\.nuget\\packages\\system.composition\\7.0.0\\system.composition.7.0.0.nupkg.sha512",
@@ -41,18 +41,6 @@
       "warningLevel": 1,
       "filePath": "C:\\Users\\josec\\Desktop\\DRAFTME\\DRAFTME_BACK\\DRAFTME_INFRA\\DRAFTME_INFRA.csproj",
       "libraryId": "Microsoft.Extensions.Configuration",
-      "targetGraphs": [
-        "net10.0"
-      ]
-    },
-    {
-      "code": "NU1902",
-      "level": "Warning",
-      "message": "El paquete \"MySqlConnector\" 2.4.0 tiene una vulnerabilidad de gravedad moderada conocida, https://github.com/advisories/GHSA-473q-m89c-ghf8",
-      "projectPath": "C:\\Users\\josec\\Desktop\\DRAFTME\\DRAFTME_BACK\\DRAFTME_INFRA\\DRAFTME_INFRA.csproj",
-      "warningLevel": 1,
-      "filePath": "C:\\Users\\josec\\Desktop\\DRAFTME\\DRAFTME_BACK\\DRAFTME_INFRA\\DRAFTME_INFRA.csproj",
-      "libraryId": "MySqlConnector",
       "targetGraphs": [
         "net10.0"
       ]
